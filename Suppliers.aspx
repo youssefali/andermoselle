@@ -1,4 +1,4 @@
-﻿ <%@ Page Title="Suppliers" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeFile="Suppliers.aspx.vb" Inherits="Suppliers" %>
+﻿ <%@ Page Title="Supplier" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeFile="Suppliers.aspx.vb" Inherits="Suppliers" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
     <div class="hero-supplier">
@@ -29,8 +29,8 @@
                     <asp:BoundField DataField="AccountManager" HeaderText="Account Manager" SortExpression="AccountManager" />
                     <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
                     <asp:BoundField DataField="Country" HeaderText="Country" SortExpression="Country" />
-                    <asp:BoundField DataField="TelNumber" HeaderText="TelNumber" SortExpression="Tel No" />
-                    <asp:BoundField DataField="FaxNumber" HeaderText="FaxNumber" SortExpression="Fax No" />
+                    <asp:BoundField DataField="TelNumber" HeaderText="TelNumber" SortExpression="TelNo" />
+                    <asp:BoundField DataField="FaxNumber" HeaderText="FaxNumber" SortExpression="FaxNo" />
                 </Columns>
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT DISTINCT [SupplierName], [AddressLine1], [AddressLine2], [AddressLine3], [City], [StateCounty], [ZipPostcode], [Description], [LinkedIn], [Twitter], [Facebook], [AccountManager], [Email], [Country], [TelNumber], [FaxNumber] FROM [Suppliers]">

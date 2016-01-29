@@ -25,6 +25,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite9", "http://localhos
 		DefaultWebSiteLanguage = "Visual Basic"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "andermoselle3", "http://localhost:52142", "{D0726F43-2F06-4082-8519-0EF16C6089A6}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52142"
+		Debug.AspNetCompiler.PhysicalPath = "..\andermoselle3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52142\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52142"
+		Release.AspNetCompiler.PhysicalPath = "..\andermoselle3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52142\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\andermoselle3\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +53,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{91266EA0-E94D-410B-B979-B94D4243C699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91266EA0-E94D-410B-B979-B94D4243C699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0726F43-2F06-4082-8519-0EF16C6089A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0726F43-2F06-4082-8519-0EF16C6089A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
